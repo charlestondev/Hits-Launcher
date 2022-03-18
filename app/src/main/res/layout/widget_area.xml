@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_config"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="1dp"
+    android:layout_marginBottom="1dp"
+    tools:context="com.hits.hitslauncher.ConfigActivity">
+    <ProgressBar
+        android:id="@+id/load_apps"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintCenterX_toCenterX="@id/activity_config"
+        app:layout_constraintCenterY_toCenterY="@id/activity_config"/>
+    <TextView
+        android:id="@+id/label"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="#3effffff"
+        android:textColor="#fff"
+        android:textSize="10dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@id/activity_config" />
+</android.support.constraint.ConstraintLayout>
